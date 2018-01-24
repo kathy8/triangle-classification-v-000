@@ -27,6 +27,3 @@ def message
   "There is an eror with the sides of your triangle!"
 end
 end
-
-
-end
