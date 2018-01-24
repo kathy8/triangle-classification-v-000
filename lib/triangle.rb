@@ -10,6 +10,7 @@ end
 
 def kind
   if @sides.include?(0) || @sides[0] + @sides[1] <= @sides[2] || @sides[0] + @sides[2] <= @sides[1] || @sides[2] + @sides[1] <= @sides[0]
+
    raise TriangleError
    elsif @sides[0] == @sides[1] && @sides[0] == @sides[2]
    :equilateral
